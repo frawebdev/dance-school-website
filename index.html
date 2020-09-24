@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="I8_Njz9NjUnJlblBBp70Qn2Pyg4h6dCslSfAlohRZrA" />
+    <link rel="icon" href="icone/sfondo-icon.ico">
+    <meta name="description" content="Impara il tuo stile di danza preferito guidato da insegnanti esperti, o segui un altro dei nostri meravigliosi corsi!">
+    <meta name="keywords" content="scuola di danza, dad, zagarolo">
+    <meta name="author" content="Francesco Paolini">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>DAD - scuola di danza a Zagarolo</title>
+</head>
+<body>
+    <div class="light-box">
+        <div class="esc">X</div>
+        <div class="cv">
+            <p class="cv-title"></p>
+            <p class="cv-content"></p>
+        </div>
+    </div>
+    
+    <nav class="menu">
+        <ul class="menu-left">
+            <li class="danza-btn">DANZA</li>
+            <li class="teatro-btn">TEATRO</li>
+            <li class="musica-btn">MUSICA</li>
+            <li class="benessere-btn">BENESSERE</li>
+            <li class="felicidad-btn">FeliciDAD</li>
+            <li class="chi-siamo-btn">CHI SIAMO</li>
+        </ul>
+    <div class="menu-right">
+        <a href="https://www.youtube.com/channel/UCX-MZoWlcNX4pAsi04LsX3g?fbclid=IwAR1Sw2NJ2OTdphQxTFzXHgL7oLQorHYH_ffcnV21oWHQ6c7JO7d7b6iofBM"><img src="icone/play.svg" id="play" class="icon"></a>
+        <a href="tel:339 320 0355"><img src="icone/phone.svg" id="phone" class="icon"></a>
+        <a href="https://www.google.com/maps/place/Diffusione+Arte+Danza/@41.8331215,12.838879,15z/data=!4m5!3m4!1s0x0:0x8d4aa908d341e5e8!8m2!3d41.8331215!4d12.838879"><img src="icone/map.svg" id="map" class="icon"></a>
+        <a href="https://www.facebook.com/centrostudidad/"><img src="icone/facebook.svg" id="facebook" class="icon"></a>
+    </div>
+</nav>
+
+
+<nav class="menu-smart">
+    <img src="icone/menu.svg" alt="icona menù" class="burger-menu">
+    <ul class="dropdown-menu">
+     <li class="danza-btn">DANZA</li>
+     <li class="teatro-btn">TEATRO</li>
+     <li class="musica-btn">MUSICA</li>
+     <li class="benessere-btn">BENESSERE</li>
+     <li class="felicidad-btn">FeliciDAD</li>
+     <li class="chi-siamo-btn">CHI SIAMO</li>
+    </ul>
+</nav>
+
+<header class="hero">
+    <div class="hero-content">
+<h1>Diffusione Arte Danza</h1>
+<p>Non solo una <em>scuola di danza</em>, 
+ma una vera e propria officina delle arti.</p>
+<div class="btn">
+<button><a href="https://www.youtube.com/channel/UCX-MZoWlcNX4pAsi04LsX3g?fbclid=IwAR1Sw2NJ2OTdphQxTFzXHgL7oLQorHYH_ffcnV21oWHQ6c7JO7d7b6iofBM">seguici su youtube</a></button>
+<button><a href="tel:339 320 0355">chiamaci</a></button>
+</div>
+</div>
+</header>
+
+<section class="courses">
+    <div class="corso-di-danza corso-generale dance-section">
+        <h2>Corsi di danza</h2>
+        <div class="cover-img cover-danza"></div>
+        <h3>I corsi</h3>
+        <div class="cards">
+            <div class="card">
+                <img src="img/danza_contemporanea.jpg" alt="corso di danza contemporanea">
+                <div class="over-img over-img-dnz">
+                <p>Danza contemporanea</p>
+                </div>  
+            </div>
+            <div class="card">
+                <img src="img/danza_classica.jpg" alt="corso di danza classica">
+                <div class="over-img over-img-dnz">
+                <p>Danza classica</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/breakdance.jpg" alt="corso di breakdance">
+                <div class="over-img over-img-dnz">
+                <p>Breakdance</p>
+            </div>
+            </div>
+            <div class="card">
+                <img src="img/danze_orientali.jpg" alt="corso di danze orientali">
+                <div class="over-img over-img-dnz">
+                <p>Danze orientali</p>
+            </div>
+            </div>
+            <div class="card">
+                <img src="img/danza_popolare.jpg" alt="corso di danza popolare">
+                <div class="over-img over-img-dnz">
+                <p>Danza popolare</p>
+            </div>
+            </div>
+            <div class="card">
+                <img src="img/corso_di_danza_propedeutica.jpg" alt="corso di danza propedeutica">
+                <div class="over-img over-img-dnz">
+                <p>Danza propedeutica e gioco-danza</p>
+            </div>
+            </div>
+        </div>
+        
+        <h3>Gli insegnanti</h3>
+        <div class="cards">
+            <div class="card"><a href="http://www.francescaferrari.org/home.html#home">
+                <img src="img/francesca_ferrari.jpg" alt="francesca ferrari insegnante di danza">
+                <div class="over-img over-img-dnz">
+                <p>Francesca Ferrari<br>
+                    <span>Danza contemporanea, Yoga Mindfullness e Pilates</span></p>
+                </div>
+                </a>
+            </div>
+            <div class="card" onclick="addCv(cv[1][0], cv[1][1])" style="cursor: pointer;">
+                <img src="img/maria_sole_insegnante_danza.jpg" alt="maria sole insegnante di danza">
+                <div class="over-img over-img-dnz">
+                <p>Maria Sole Ferrari<br>
+                    <span>Propedeutica alla danza, Gioco-danza, Danza popolare per bambini</span>
+                </p>
+            </div>
+            </div>
+            <div class="card" onclick="addCv(cv[0][0], cv[0][1])" style="cursor: pointer;">
+                <img src="img/insegnante_danza_classica.jpg" alt="giacomo e mattia vitelli maestri danza classica">
+                <div class="over-img over-img-dnz">
+                <p>Giacomo e Mattia Vitelli<br>
+                <span>Danza classica</span></p>
+            </div>
+            </div>
+            <div class="card">
+                <img src="img/catalin_insegnante_breakdance.jpg" alt="catalin insegnante di breakdance">
+                <div class="over-img over-img-dnz">
+                <p>Catalin Samoa<br>
+                <span>Breakdance</span></p>
+            </div>
+            </div>
+            <div class="card" style="cursor: pointer;"><a href="http://www.aishamad.it/">
+                <img src="img/manuela_insegnante_danza.jpg" alt="manuela desideri insegnante di danze orientali">
+                <div class="over-img over-img-dnz">
+                <p>Manuela Desideri<br>
+                    <span>Danze orientali</span>
+                </p>
+            </div>
+            </a>
+            </div>
+            <div class="card" onclick="addCv(cv[3][0], cv[3][1])" style="cursor: pointer;">
+                <img src="img/Agata_danza.jpg" alt="agata scopelliti insengante di danza popolare">
+                <div class="over-img over-img-dnz">
+                <p>Agata Scopelliti<br>
+                    <span>Danza popolare</span>
+                </p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="corso-di-teatro corso-generale teatro-section">
+        <h2>Corsi di teatro</h2>
+        <div class="cover-img cover-teatro"></div>
+        <h3>I corsi</h3>
+        <div class="cards">
+            <div class="card">
+                <img src="img/officine_creattive.jpg" alt="corsi di teatro">
+                <div class="over-img over-img-teatro">
+                <p>Corsi di teatro per junior, big, e professionisti</p>
+                </div>  
+            </div>
+        </div>
+        <h3>Gli insegnanti</h3>
+        <div class="cards">
+            <div class="card">
+                <img src="img/igor_teatro.jpg" alt="igor geat insegnante di teatro">
+                <div class="over-img over-img-teatro">
+                    <p>Igor Geat<br>
+                        <span>Corsi di teatro</span></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/andrea_colangelo_stage_teatro.jpg" alt="andrea colangelo insegnante di teatro">
+                <div class="over-img over-img-teatro">
+                    <p>Andrea Colangelo<br>
+                        <span>Stage</span></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/david_marsi_stage_di_teatro.jpg" alt="david marsi insegnante di teatro">
+                <div class="over-img over-img-teatro">
+                    <p>David Marsi<br>
+                        <span>Stage</span></p>
+                </div>
+            </div>
+            </div>
+    </div>
+        
+    <div class="corso-di-musica corso-generale musica-section">
+        <h2>Corsi di musica</h2>
+        <div class="cover-img cover-music"></div>
+        <h3>I corsi</h3>
+        <div class="cards">
+            <div class="card">
+                <img src="img/corso_di_piano.jpg" alt="corso di piano">
+                <div class="over-img over-img-music">
+                <p>Corso di piano</p>
+                </div>  
+            </div>
+            <div class="card">
+                <img src="img/corso_di_chitarra.jpg" alt="corso di chitarra">
+                <div class="over-img over-img-music">
+                <p>Corso di chitarra</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/coro_a_colori.jpg" alt="corso di coro">
+                <div class="over-img over-img-music">
+                <p>Coro</p>
+            </div>
+            </div>
+            <div class="card">
+                <img src="img/corso_di_canto.jpg" alt="corso di canto">
+                <div class="over-img over-img-music">
+                <p>Canto</p>
+            </div>
+            </div>
+        </div>
+        
+        <h3>Gli insegnanti</h3>
+        <div class="cards">
+            <div class="card" onclick="addCv(cv[4][0], cv[4][1])" style="cursor: pointer;">
+                <img src="img/tiziana_canto_pianoforte.jpg" alt="tiziana tulli insegnante di canto">
+                <div class="over-img over-img-music">
+                <p>Tiziana Tulli<br>
+                    <span>Canto e piano</span></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Andrea_Marchesino_insegnante_chitarra.jpg" alt="andrea marchesini insegnante di chitarra">
+                <div class="over-img over-img-music">
+                <p>Andrea Marchesino<br>
+                    <span>Chitarra</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="benessere corso-generale benessere-section">
+        <h2>Benessere</h2>
+        <div class="cover-img cover-bns"></div>
+        <h3>I corsi</h3>
+        <div class="cards">
+            <div class="card">
+                <img src="img/corso_di_tai_chi.jpg" alt="corso di tai chi">
+                <div class="over-img over-img-bns">
+                <p>Tai Chi</p>
+                </div>  
+            </div>
+            <div class="card">
+                <img src="img/corso_di_yoga.jpg" alt="corso di yoga">
+                <div class="over-img over-img-bns">
+                <p>Yoga e meditazione</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/corso_di_pilates.jpg" alt="corso di pilates">
+                <div class="over-img over-img-bns">
+                <p>Pilates</p>
+            </div>
+            </div>
+        </div>
+        
+        <h3>Gli insegnanti</h3>
+        <div class="cards">
+            <div class="card">
+                <img src="img/oriana_viozza_insegnante_yoga.jpg" alt="oriana viozzi insegnante di yoga">
+                <div class="over-img over-img-bns">
+                <p>Oriana Viozzi<br>
+                    <span>Yoga</span></p>
+                </div>
+            </div>
+            <div class="card" onclick="addCv(cv[5][0], cv[5][1])" style="cursor: pointer;">
+                <img src="img/corso_di_tai_chi.jpg" alt="riccardo galli insegnante di arti marziali">
+                <div class="over-img over-img-bns">
+                <p>Riccardo Galli<br>
+                    <span>Tai Chi, Kung Fu</span></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/francesca_ferrari.jpg" alt="francesca ferrari insegnante di danza e yoga mindfullness">
+                <div class="over-img over-img-bns">
+                <p>Francesca Ferrari<br>
+                    <span>Yoga Mindfullness</span></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/giovanni_tripi_insegnante_pilates.jpg" alt="giovanni tripi insegnante di pilates">
+                <div class="over-img over-img-bns">
+                <p>Giovanni Tripi<br>
+                    <span>Pilates</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="feliciDAD corso-generale felicidad-section">
+        <h2>FeliciDAD</h2>
+        <div class="cover-img cover-feliciDAD"></div>
+        <div class="cards" style="margin-top: 40px;">
+            <div class="card">
+                <p>FELICIDAD<br>
+                    Ludoteca & Baby Break<br>
+                    Tante attività per impegnare il week end in maniera ludico ricreativa e formativa!<br>
+                    Tutti i sabato al DAD vi aspettano insegnanti qualificati per accompagnarvi in una formazione divertente ed esaustiva</p>
+            </div>
+        </div>
+        <h3>I corsi</h3>
+        <div class="cards">
+            <div class="card">
+                <img src="img/romina_russo_inglese.jpg" alt="romina russo insegnante di inglese per bambini">
+                <div class="over-img over-img-feliciDAD">
+                <p>SingLish<br>
+                    <span>Impara l'inglese cantando!<br>
+                    con Romina Russo</span>
+                </p>
+                </div>  
+            </div>
+            <div class="card">
+                <img src="img/baby_popolare.jpg" alt="maria sole ferrari">
+                <div class="over-img over-img-feliciDAD">
+                <p>BABY POPolare<br>
+                <span>Danza popolare<br>
+                con Maria Sole Ferrari</span></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/officine_creattive.jpg" alt="">
+                <div class="over-img over-img-feliciDAD">
+                <p>Officine creAttive<br>
+                <span>Teatro, performance, cinema, laboratori multimediali e molto altro!<br>
+                con Igor Geat & partners</span></p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</section>
+
+<h3 style="text-shadow: none; color:black;">Chi siamo</h3>
+<section class="chi-siamo">
+    <img src="img/chi_siamo.jpg" alt="">
+    <div class="testo-chi-siamo">
+<p>Il DAD è stato fondato nel 2010 da Francesca Ferrari e Igor Geat, dopo una intensa attività di produzione culturale ed esperienze professionali. Il DAD è molto di più di una semplice scuola di danza! É una vera e propria OFFICINA DELLE ARTI sia dal punto di vista dell'offerta formativa che della produzione. L'impostazione del centro è Multidisciplinare: questo è possibile grazie alle importanti collaborazioni che il DAD ha formalizzato negli anni attraverso protocolli di intesa con importanti associazioni come il C.A.M.I. (Centro Artistico Musicale Italiano), il C.A.M.I. 2020 ( centro Artistico Multimediale Internazionale), L'APS OFF attaverso la quale sono nate le Officine Ferrari e L'OFFGYM e molte altre. Le attività accolgono neofiti e professionisti in un ambiente pensato come una vera e propria Factory sul modello nord europeo, e la formazione è affidata a professionisti certificati che esprimono al meglio gli obbiettivi del centro.
+</p>
+    </div>
+</section>
+
+<h3 style="text-shadow: none; color:black;">dicono di noi</h3>
+<section class="comments">
+    <div class="comment">
+    <img src="" class="comment-img">
+    <div class="recensione">
+    </div>
+</div>
+</section>
+
+<footer>
+    <p>d.a.d. diffusione arte danza (s.n.c.)</p>
+    <p>Viale del Cinema - Località Colle Barco - Zagarolo (RM)</p>
+    <p>C.F. 93018440581</p>
+    <p>tel: 339 320 0355 - 320 618 6189</p>
+    <p>e-mail: francescaferrari007@gmail.com</p>
+    <a href="https://www.iubenda.com/privacy-policy/17430859" class="iubenda-white iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+</footer>
+
+
+    <div class="contacts">
+        <a href="https://www.youtube.com/channel/UCX-MZoWlcNX4pAsi04LsX3g?fbclid=IwAR1Sw2NJ2OTdphQxTFzXHgL7oLQorHYH_ffcnV21oWHQ6c7JO7d7b6iofBM"><img src="icone/play.svg" id="play"></a>
+        <a href="tel:339 320 0355"><img src="icone/phone.svg" id="phone"></a>
+        <a href="https://www.google.com/maps/place/Diffusione+Arte+Danza/@41.8331215,12.838879,15z/data=!4m5!3m4!1s0x0:0x8d4aa908d341e5e8!8m2!3d41.8331215!4d12.838879"><img src="icone/map.svg" id="map"></a>
+        <a href="https://www.facebook.com/centrostudidad/"><img src="icone/facebook.svg" id="facebook"></a>
+    </div>
+
+
+
+<script src="script/jquery-3.4.1.min.js" type="text/javascript">
+</script>
+<script>
+//burger menu
+$('.burger-menu').click(function(){
+        $('.dropdown-menu').slideToggle();
+})
+
+/*scrolling to*/
+
+function scrolling (scrollFrom, scrollTo) {
+    scrollFrom.click(function(){
+            $('html,body').animate({
+                scrollTop:scrollTo.offset().top
+            }, 700);
+})};
+
+scrolling($('.danza-btn'), $('.dance-section'));
+scrolling($('.teatro-btn'), $('.teatro-section'));
+scrolling($('.musica-btn'), $('.musica-section'));
+scrolling($('.benessere-btn'), $('.benessere-section'));
+scrolling($('.chi-siamo-btn'), $('.chi-siamo'));
+scrolling($('.felicidad-btn'), $('.felicidad-section'));
+</script>
+<script src="script/app.js"></script>
+</body>
+</html>

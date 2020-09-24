@@ -1,0 +1,64 @@
+*{box-sizing:border-box}body{font-family:Poppins,sans-serif;width:100%;height:100%;margin:0;padding:0}h1{font-size:50px;margin:0;color:#fff;text-shadow:4px 4px #000;text-align:center}h2{font-size:50px;text-align:center;color:#fff;text-shadow:4px 4px #000}h3{font-size:50px;text-align:center;padding:20px 0;color:#fff;text-shadow:4px 4px #000}h5{font-size:20px;text-align:center}p{margin:0;font-size:20px;color:#f5f4f4;text-shadow:2px 2px #000;text-align:center;margin-left:10px;margin-right:10px}a{text-decoration:none;color:#000}button{font-family:Poppins,sans-serif;font-size:15px;padding:8px;border-radius:15px;border:none;box-shadow:2px 2px #000;cursor:pointer}@font-face{font-family:Poppins;src:url(font/Poppins-Medium.otf)}.menu{width:100%;height:12vh;position:fixed;top:0;display:flex;flex-direction:row;justify-content:space-between;background-color:rgba(0,0,0,.6);z-index:999}.menu-left{display:flex;flex-direction:row;justify-content:space-between;align-items:center;list-style:none}.menu-left li{margin-left:20px;font-size:20px;color:#fff;cursor:pointer}.menu-left li:hover{color:#c7c7c7}.menu-right{display:flex;flex-direction:row;align-items:center}.menu-right img{width:60px;height:60px;margin-right:20px;padding:10px;border-radius:30px;cursor:pointer}.menu-smart{display:none}#play{background-color:#7e47a9}#phone{background-color:#3b9926}#map{background-color:#db3647}#facebook{background-color:#f89a01}.hero{background-image:linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,.2)),url(img/sfondo.jpg);background-size:cover;background-position:center;height:100vh;width:100%}.hero .hero-content{display:flex;flex-direction:column;align-items:center;padding-top:45vh}.hero .hero-content .btn{display:flex;flex-direction:column}.hero .hero-content .btn button{margin-top:15px}.corso-generale{box-shadow:0 0 10px}.cover-img{height:70vh;width:100%}.cards{width:80%;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));grid-auto-rows:250px;grid-gap:20px}.cards .card{overflow:hidden;position:relative;border-radius:15px;box-shadow:4px 4px #000;max-width:600px;margin:0 auto}.cards .card img{width:100%}.cards .card .over-img{position:absolute;bottom:0;font-size:30px;text-align:left;line-height:.8;width:100%}.cards .card .over-img p{font-size:24px;text-align:left;line-height:.8;color:#fff;padding:10px}.cards .card span{color:#fff;font-size:16px}.cover-danza{background-image:url(img/danza_contemporanea_cover.jpg);background-position:center;background-size:cover}.corso-di-danza{border-top:4px solid #410870;border-bottom:4px solid #410870;background-image:linear-gradient(75deg,#7e47a9 50%,#fff);padding:60px 0}.over-img-dnz{background-color:rgb(126,71,169,.6)}.cover-teatro{background-image:url(img/corso_di_teatro.jpg);background-position:center;background-size:cover}.corso-di-teatro{border-top:4px solid #a80313;border-bottom:4px solid #a80313;background-image:linear-gradient(75deg,#db3647 50%,#fff);margin-top:100px;padding:60px 0}.over-img-teatro{background-color:rgb(219,54,71,.6)}.cover-music{background-image:url(img/lezioni_di_musica.jpg);background-position:center;background-size:cover}.corso-di-musica{border-top:4px solid #c47a03;border-bottom:4px solid #c47a03;background-image:linear-gradient(75deg,#f89a01 50%,#fff);margin-top:100px;padding:60px 0}.over-img-music{background-color:rgb(248,154,1,.6)}.cover-bns{background-image:url(img/corsi_di_benessere.jpg);background-position:center;background-size:cover}.benessere{border-top:4px solid #167c00;border-bottom:4px solid #167c00;background-image:linear-gradient(75deg,#3b9926 50%,#fff);margin-top:100px;padding:60px 0}.over-img-bns{background-color:rgba(59,153,38,.6)}.cover-feliciDAD{background-image:url(img/feliciDAD.jpg);background-position:center;background-size:cover}.feliciDAD{border-top:4px solid #ddbf27;border-bottom:4px solid #ddbf27;background-image:linear-gradient(75deg,#ffe033 50%,#fff);margin-top:100px;padding:60px 0}.over-img-feliciDAD{background-color:rgba(255,224,51,.6)}.comments{display:flex;flex-direction:row;justify-content:space-between;width:80%;margin:0 auto}.comments .comment{display:flex;flex-direction:column;align-items:center;width:40%;box-shadow:4px 4px #000;border-radius:15px;padding:12px}.comments .comment img{width:120px;height:120px;border-radius:100px;box-shadow:4px 4px #000}.comments .comment p{font-size:15px;font-style:italic;padding-top:20px}.comment-one{background-color:#db3647}.comment-two{background-color:#f89a01}.chi-siamo{width:80%;margin:0 auto;display:flex;flex-direction:column;align-items:center;box-shadow:4px 4px #000;border-radius:15px;padding:12px;background-color:#7e47a9}.chi-siamo img{width:180px;height:180px;border-radius:100px;box-shadow:4px 4px #000}.chi-siamo .testo-chi-siamo{font-size:15px;font-style:italic;padding-top:20px}.contacts{display:none}footer{width:100%;text-align:center;background-color:rgba(0,0,0,.6);margin-top:80px;padding:10px}@media (max-width:1000px){.menu{display:none}.menu-smart{width:100%;position:fixed;top:0;display:flex;flex-direction:column;justify-content:center;align-items:center;background-color:rgba(0,0,0,.6);z-index:1000}.menu-smart img{width:60px;height:60px}.dropdown-menu{display:none;list-style:none;text-align:center;padding:0}.dropdown-menu li{font-size:20px;color:#fff;cursor:pointer}h1{font-size:35px}h2{font-size:35px}h3{font-size:35px}p{font-size:15px}.comments{flex-direction:column;width:80%}.comments .comment{width:100%;margin-top:10px}.contacts{position:fixed;bottom:8px;right:8px;display:flex;flex-direction:column;align-items:center}.contacts img{width:45px;height:45px;padding:10px;border-radius:30px;margin-top:8px;box-shadow:2px 2px 20px;cursor:pointer}}
+
+.light-box{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.light-box .esc{
+    position: fixed;
+    top: 5px;
+    right: 10px;
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
+
+.light-box .cv{
+    width: 40%;
+    font-size: 15px;
+    background-color: #7E47A9;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.comments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    margin: 0 auto;
+
+}
+
+.comments .comment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:40%;
+    background-color: #7E47A9;
+    box-shadow: 4px 4px black;
+    border-radius:15px;
+    padding: 12px;
+}
+
+.comments .comment img{
+    width:120px;
+    height:120px;
+    border-radius:100px;
+    box-shadow: 4px 4px black;
+}
+
+.comments .comment p{
+    font-size: 15px;
+    font-style: italic;
+    padding-top:20px;
+}
